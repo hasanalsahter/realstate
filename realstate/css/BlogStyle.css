@@ -1,0 +1,326 @@
+.slides{
+    display: none;
+
+}
+
+
+
+.slideShow-Container{
+    background-image:linear-gradient( rgba(242, 152, 74, 0), rgba(242, 200, 76, 0.075));
+    max-width: 80%;
+   height: 70vh;
+border-radius: 5px;
+   margin: auto;
+  
+   margin-top: 3%;
+
+ 
+  
+
+}
+
+.Slides img{
+    
+    max-width: 50%;
+   height: 60vh;
+margin-top: 3%;
+    border-radius: 5px;
+  
+   
+   
+}
+
+.slides{
+    text-align: center;
+
+}
+
+.BigStext{
+
+    font-size: 2.5em;
+    position: initial;
+   width: 50%;
+   float: right;
+   height: auto;
+   margin-top: 3%;
+   letter-spacing: 6px;
+    top: 10%;
+    color: #1e2a78;
+    padding: 10px;
+    padding-left: 5px;
+    right: 10%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    
+    
+}
+.smallStext{
+ 
+  font-size: 2em;
+  position: absolute;
+   width: 40%;
+   right: 15%;
+   height: 30%;
+   font-family: 'Raleway', sans-serif;
+   letter-spacing: 3px;
+   text-align: center;
+   top: 30%;
+   color: rgb(0, 0, 0);
+   padding: 10px;
+   margin-top: 10%;
+   right: 10%;
+ }
+
+.fade{
+    -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+
+  .news{
+      
+      width: 100%;
+      height: 700px;
+     margin-top: 400px;
+     display: flex;
+     flex-direction: row;
+
+  }
+
+  .newsText{
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+  
+    width: 50%;
+    height: auto;
+    
+  }
+
+
+
+
+  .BnewsText{
+    font-size: 3em;
+    letter-spacing: 4px;
+    color: #1e2a78;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 60px;
+ 
+   
+  }
+
+
+  .SnewsText h3{
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    line-height: 25px;
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+
+  .SnewsText p{
+
+    margin-right: 90px;
+   margin-left: 90px;
+  font-size: 20px;
+    line-height: 35px;
+
+  }
+
+
+
+  .news2{
+    
+    width: 100%;
+    height: 700px;
+   margin-top: 400px;
+   display: flex;
+   flex-direction: row-reverse;
+
+}
+
+
+.news3{
+
+    width: 100%;
+    height: 700px;
+   margin-top: 400px;
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 200px;
+
+}
+.newsIMG{
+  width: 50%;
+  left: 1%;
+
+
+  position: sticky;
+}
+
+
+ .news .newsIMG img{
+    width: 50%max-content;
+    
+    margin-bottom: 10%;
+
+}
+
+
+
+  .news2 img{
+    margin-top: 8%;
+   
+  }
+
+
+
+
+@media screen and (max-width:768px){
+
+
+
+  .slideShow-Container{
+    padding: 2px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    overflow: hidden;
+   
+
+    margin-top: 15vh;
+
+  }
+  .Slides img{
+    overflow: hidden;
+    
+    width: 100%;
+  height: 40vh;
+   
+    
+
+    
+  }
+.BigStext{
+  float: right;
+  width: 100%;
+  height: auto;
+  font-size: 1em;
+  margin: 0;
+  left: 0;
+  top: 8%;
+  display: initial;
+
+overflow: hidden;
+position: absolute;
+position: initial;
+letter-spacing: 3px;
+}
+
+.smallStext{
+  width: 100%;
+  font-size: 1em;
+  height: auto;
+  font-size: 1em;
+  position: initial;
+  margin: 0;
+  left: 0;
+  margin-top: 90px;
+  overflow: hidden;
+  letter-spacing: 3px;
+  
+  
+}
+
+.news{
+  position: initial;
+  background-image:linear-gradient( rgba(242, 152, 74, 0), rgba(242, 200, 76, 0.075));
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+  overflow: hidden;
+}
+
+.newsText{
+  width: 100%;
+}
+
+.newsIMG img{
+  width: 100%;
+  position: sticky;
+
+  overflow: hidden;
+}
+
+.BnewsText{
+  font-size: 1em;
+  line-height: 20px;
+  margin-top: 10px;
+
+}
+
+.SnewsText h3{
+  letter-spacing: px;
+  font-size: 0.9em;
+}
+
+
+.SnewsText p{
+  font-size: 0.9em;
+  line-height: 25px;
+}
+.news2{
+
+  background-image:linear-gradient( rgba(242, 152, 74, 0), rgba(242, 200, 76, 0.075));
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.news2 img{
+  width: 100%;
+  
+
+}
+
+.newsIMG {
+  width: 100%;
+}
+
+
+.news3{
+  background-image:linear-gradient( rgba(242, 152, 74, 0), rgba(242, 200, 76, 0.075));
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  text-align: center;
+margin-top: 50px;
+  overflow: hidden;
+}
+.news3 img{
+  width: 100%;
+
+}
+}

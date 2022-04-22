@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="341" height="513.842" viewBox="0 0 341 513.842">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        stroke: #1e2a78;
+        stroke-width: 5px;
+      }
+
+      .cls-4 {
+        fill: #707070;
+        stroke: #fff;
+        font-size: 50px;
+        font-family: Tahoma;
+        letter-spacing: 0.01em;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="341" height="513.842"/>
+    </clipPath>
+  </defs>
+  <g id="thelogo" transform="translate(-523 -425.235)">
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" class="cls-2" transform="translate(523 425.235)">
+      <g transform="translate(-511 -377.235)">
+        <path id="Path_1" data-name="Path 1" class="cls-3" d="M120.5,62.36l1-185.86L13.747-62V224.151H201.752V113.836L120.5,62.36,54.833,113.836v63.32H120.5V66" transform="translate(573.5 521.237)"/>
+        <text id="DREAMESTATE_" data-name="DREAMESTATE
+" class="cls-4" transform="translate(512.5 803.998)"><tspan x="0" y="0">DREAMESTATE</tspan><tspan x="0" y="60"></tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

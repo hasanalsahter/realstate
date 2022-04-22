@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="439.655" height="503" viewBox="0 0 439.655 503">
+  <g id="Group_1" data-name="Group 1" transform="translate(-134 -115)">
+    <path id="Path_23" data-name="Path 23" d="M453.9,227.5c-4.913.005-8.894,3.59-8.9,8.014v445.2c.005,4.424,3.987,8.009,8.9,8.014H819.756c4.913,0,8.894-3.59,8.9-8.013v-445.2c-.005-4.424-3.987-8.009-8.9-8.014Z" transform="translate(-311 -112.5)" fill="#e6e6e6"/>
+    <path id="Path_24" data-name="Path 24" d="M464.824,241.5c-4.947.075-8.894,3.722-8.824,8.153V670.571c-.07,4.432,3.877,8.078,8.824,8.153H807.831c4.947-.075,8.894-3.722,8.824-8.153V249.653c.07-4.432-3.876-8.078-8.824-8.153Z" transform="translate(-311 -112.5)" fill="#fff"/>
+    <path id="Path_33" data-name="Path 33" d="M517.25,557.855a1,1,0,0,0-1,1v7.167a1,1,0,0,0,1,1h240a1,1,0,0,0,1-1v-7.167a1,1,0,0,0-1-1Z" transform="translate(-313.189 -146.547)" fill="#ccc"/>
+    <path id="Path_34" data-name="Path 34" d="M516.847,581.15c-.33,0-.6.557-.6,1.244v8.914c0,.687.267,1.243.6,1.244H660.142c.33,0,.6-.557.6-1.244v-8.914c0-.687-.267-1.243-.6-1.244Z" transform="translate(-263.682 -151.1)" fill="#ccc"/>
+    <path id="Path_36" data-name="Path 36" d="M517.25,627.855a1,1,0,0,0-1,1v7.167a1,1,0,0,0,1,1h240a1,1,0,0,0,1-1v-7.167a1,1,0,0,0-1-1Z" transform="translate(-313.189 -153.762)" fill="#ccc"/>
+    <path id="Path_37" data-name="Path 37" d="M517.25,651.15a1,1,0,0,0-1,1v7.167a1,1,0,0,0,1,1h240a1,1,0,0,0,1-1V652.15a1,1,0,0,0-1-1Z" transform="translate(-313.189 -156.163)" fill="#ccc"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="73" cy="73" r="73" transform="translate(427.655 472)" fill="#1e2a78"/>
+    <path id="Path_38" data-name="Path 38" d="M498.044,632.815l-21.85-28.092,12.706-9.884,10.346,13.3L534.2,571.248l11.687,11.072Z" transform="translate(-4.345 -56.776)" fill="#fff"/>
+    <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="37" cy="40.5" rx="37" ry="40.5" transform="translate(286.655 230)" fill="#ff0101"/>
+    <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="27.5" cy="28" rx="27.5" ry="28" transform="translate(308.655 242)" fill="#fff"/>
+    <text id="PASSPORT" transform="translate(212.655 174)" fill="#a2a2a2" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="41.439" y="32">PASSPORT</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,409 @@
+.slides{
+    display: none;
+
+}
+
+
+
+.slideShow-Container{
+    background-image:linear-gradient( rgba(242, 152, 74, 0), rgba(242, 200, 76, 0.075));
+    max-width: 60%;
+   height: 60vh;
+border-radius: 5px;
+   margin: auto;
+  
+   margin-top: 3%;
+
+ 
+  
+
+}
+
+.Slides img{
+    
+    max-width: 100%;
+   height: 60vh;
+margin-top: 3%;
+    border-radius: 5px;
+  
+   
+   
+}
+
+.slides{
+    text-align: center;
+
+}
+
+.BigStext{
+
+    font-size: 4em;
+    font-weight: bolder;
+    position: absolute;
+   width: 50%;
+   float: right;
+   height: auto;
+   margin-top: 3%;
+   letter-spacing: 6px;
+    top: 10%;
+    -webkit-text-stroke: 0.00000000000000000000000000000000000001px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-left: 5px;
+    left: 10%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    
+    
+}
+.smallStext{
+ 
+  font-size: 2em;
+  position: absolute;
+   width: 40%;
+   right: 15%;
+   height: 30%;
+   font-family: 'Raleway', sans-serif;
+   letter-spacing: 3px;
+   text-align: center;
+   top: 30%;
+   color: rgb(255, 255, 255);
+   padding: 10px;
+   margin-top: 10%;
+   right: 10%;
+ }
+
+.fade{
+    -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 37%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 20%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-image:linear-gradient( rgba(242, 152, 74, 0.295), rgba(242, 200, 76, 0.555));
+  }
+
+
+
+
+
+  .arrow{
+    margin-left: 50%;
+   margin-top: 5%;
+ 
+   
+    align-items: center;
+    align-self: center;
+  }
+
+  .arrow span{
+   
+display: block;
+width: 30px;
+height: 30px;
+border-bottom: 5px solid #1e2a78;
+border-right: 5px solid #1e2a78;
+transform: rotate(45deg);
+margin: -10px;
+animation: animate 2s infinite;
+  }
+  .arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+  
+.BIGcards{
+   
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+
+.Scards{
+display: none;
+  
+    width: 60%;
+    margin-top: 2%;
+ 
+    background-image:linear-gradient( rgba(242, 152, 74, 0), rgba(242, 200, 76, 0.479));
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.Scards h4 {
+   color:  #1e2a78;
+   letter-spacing: 2px;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+.grid-container{
+    display: grid;
+width: 80%;
+    grid-template-columns:auto auto auto;
+    width: 100%;
+    
+    
+}
+
+
+
+.Scards h5{
+    color:  #000000;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 1em;
+    width: 100%;
+    padding: 1%;
+line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1%;
+}
+
+.grid-item{
+ 
+    height: 100px;
+    margin: 1rem;
+    width: 90%;
+    height: auto;
+    padding: 2%;
+   
+    display: flex;
+flex-direction: row;
+   
+}
+
+
+.grid-item img{
+
+width: auto;
+
+height: auto;
+
+transform: scale(0.8);
+border-radius: 20%;
+padding: 5%;
+
+
+
+
+
+
+}
+
+
+.grid-item p{
+    width: auto;
+    margin-top: 7%;
+    margin-bottom: 0%;
+
+}
+#map {
+    width: 100%;
+    height: 50vh;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+
+
+.formContainer form{
+    display: flex;
+    
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+}
+
+.formContainer{
+  margin-top: 75px;
+    width: 100%;
+    height: auto;
+  margin-right: 45px;
+    padding: 20px;
+ 
+    text-align: left;
+}
+
+
+input[type=submit] {
+   
+    color: white;
+    padding: 5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 40px;
+    background-image: linear-gradient( rgba(0, 4, 40, 0.329), rgba(0, 78, 146, 0.473));
+  }
+
+
+  input[type=text], select, textarea {
+    background-image: linear-gradient(to right, rgba(253, 198, 48, 0.096), rgba(255, 205, 80, 0.336));
+margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0);
+
+
+  }
+
+  
+
+  input[type=number], select, textarea {
+    background-image: linear-gradient(to right, rgba(253, 198, 48, 0.096), rgba(255, 205, 80, 0.336));
+margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0);
+
+
+  }
+
+
+
+  input[type=submit]:hover {
+      transform: scale(1.1);
+      transition: 1s;
+      color: #1e2a78;
+      background-image: linear-gradient(to right, rgba(253, 198, 48, 0.096), rgba(255, 205, 80, 0.336));
+ 
+
+  }
+
+  input[type=text]:hover{
+    transform: scale(1.1);
+    transition:1s;
+
+  }
+  input[type=number]:hover{
+    transform: scale(1.1);
+    transition: 1s;
+
+  }
+
+#Country:hover{
+    transform: scale(1.1);
+    transition: 1s;
+  }
+
+
+  @media screen and (max-width:768px){
+
+
+    .slideShow-Container{
+      max-width: 80%;
+      height: auto;
+   
+      margin-top: 15%;
+      align-items: center;
+      text-align: center;
+    
+    }
+
+    .Slides img{
+      width: 100%;
+      height: 30vh;
+    }
+
+    .Slides{
+      width: 100%;
+    
+    }
+
+    .BigStext{
+      font-size: 2em;
+      width: 100%;
+      left: 0%;
+      top: 20%;
+    
+    }
+
+    .prev, .next {
+      top: 24%;
+
+    }
+    .prev {
+      left: 10%;      
+    }
+
+    .next {
+      right: 10%;
+    }
+
+
+    .BIGcards{
+      width: 100%;
+    }
+
+     .Scards{
+
+     width: 80%;
+   }
+   .grid-container{
+     display: grid;
+     grid-template: initial;
+   }
+
+
+  }

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="810.346" height="460" viewBox="0 0 810.346 460">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="810.346" height="460" fill="none"/>
+    </clipPath>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1920 792">
+      <image width="1920" height="792" xlink:href="D:\HTML-CSS-JAVAS work\project\root\images/20200430_183948.png"/>
+    </pattern>
+  </defs>
+  <g id="NEWLOGO" transform="translate(-406 -511)">
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(406 511)" clip-path="url(#clip-path)">
+      <g transform="translate(-406 -511)">
+        <rect id="_20200430_183948" data-name="20200430_183948" width="510" height="211" transform="translate(702 511)" fill="url(#pattern)"/>
+        <text id="d" transform="translate(406 874)" fill="#1e2a78" font-size="400" font-family="PalaceScriptMT, Palace Script MT"><tspan x="0" y="0">D</tspan></text>
+        <text id="eam" transform="translate(688 912)" fill="#1e2a78" font-size="244" font-family="PalaceScriptMT, Palace Script MT"><tspan x="-111.754" y="0">eam</tspan></text>
+        <path id="Path_1" data-name="Path 1" d="M5.172,73.984s2.229-35.09-11.2-22.21-104.164,201.993-110.265,255.55c-3.459,30.367,31.651,24.782,48.636,7.761,4.9-4.907-23.65,7.025-48.636,11.2-14.606,2.439-52.727,11.844-65.732,17.6-17.081,7.554,105.433-51.269,151.374-72.028a53.616,53.616,0,0,1,18.134-4.745" transform="translate(596.5 615.5)" fill="none" stroke="#1e2a78" stroke-width="3"/>
+        <text id="e" transform="translate(709.368 695.802)" fill="rgba(255,255,255,0)" stroke="#f8f8f8" stroke-linecap="round" stroke-width="1" font-size="100" font-family="Tahoma"><tspan x="-12.052" y="100">E</tspan></text>
+        <text id="s" transform="translate(825.113 695.802)" fill="rgba(255,255,255,0)" stroke="#f8f8f8" stroke-linecap="round" stroke-width="1" font-size="100" font-family="Tahoma"><tspan x="-11.856" y="100">S</tspan></text>
+        <text id="t" transform="translate(940.857 695.802)" fill="rgba(255,255,255,0)" stroke="#f8f8f8" stroke-linecap="round" stroke-width="1" font-size="100" font-family="Tahoma"><tspan x="-13.199" y="100">T</tspan></text>
+        <text id="a" transform="translate(1056.601 695.802)" fill="rgba(255,255,255,0)" stroke="#f8f8f8" stroke-linecap="round" stroke-width="1" font-size="100" font-family="Tahoma"><tspan x="-13.98" y="100">A</tspan></text>
+        <text id="e-2" data-name="e" transform="translate(1170.346 695.802)" fill="rgba(255,255,255,0)" stroke="#f8f8f8" stroke-linecap="round" stroke-width="1" font-size="100" font-family="Tahoma"><tspan x="-12.052" y="100">E</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

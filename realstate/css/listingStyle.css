@@ -1,0 +1,211 @@
+
+.beauty{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 4px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.00000000000000000000000000000000000001px rgb(255, 255, 255);
+    font-size: 100px;
+  
+    float: left;
+    font-weight: bolder;
+    top:48% ;
+    left: 10%;
+   position: absolute;
+  
+  }
+
+  .container video {
+    margin: 0;
+    top: 0%;
+  }
+
+
+
+  
+.beauty:hover {
+ 
+    transition: 5s;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    
+  }
+
+
+
+
+  
+.listings{
+    margin-top: 20px;
+    float: left;
+    overflow:visible;
+    width: 100%;
+    align-items: center;
+    border-radius: 15px;
+   padding: 30px;
+   display: flex;
+   flex-direction: row;
+   border-radius: 69px 10px 69px 69px;
+  -moz-border-radius: 69px 10px 69px 69px;
+  -webkit-border-radius: 69px 10px 69px 69px;
+ 
+   
+  }
+  
+  
+  
+  .buy_house_Te{
+    float: left;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 200px;
+  
+  }
+  
+  
+  
+  
+  .buy_house_cards{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 60vh;
+    border-radius: 69px 10px 69px 69px;
+    -moz-border-radius: 69px 10px 69px 69px;
+    -webkit-border-radius: 5px;
+   background-image:linear-gradient( rgba(242, 152, 74, 0.075), rgba(242, 200, 76, 0.555));
+   padding: 20px;
+  
+   -webkit-box-shadow: inset 0px -38px 93px -82px rgba(0,0,0,0.75);
+   -moz-box-shadow: inset 0px -38px 93px -82px rgba(0,0,0,0.75);
+   box-shadow: inset 0px -38px 93px -82px rgba(0,0,0,0.75);
+  
+   margin: 50px;
+   
+   font-family: 'Raleway', sans-serif;
+  
+   
+  }
+  
+  .buy_house_cards img{
+    box-shadow: inset 3px 4px 5px #000;
+    border-radius: 5px;
+  
+   width: 100%;
+   height: 55%;
+   margin-bottom: 10px;
+  
+   
+  }
+  
+  .T-container{
+    color: white;
+    line-height: 25px;
+    padding: 2px 12px;
+    letter-spacing: 1px;
+    
+    width: 100%;
+    height: 45%;
+    overflow: hidden;
+    
+  }
+  
+  .buy_house_cards:hover{
+  transform: scale(1.1);
+  }
+  
+  
+  .T-container h4{
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #1e2a78;
+  letter-spacing: 3px;
+  }
+  
+  .T-container p{
+  
+    font-size: 14px;
+    text-align: left;
+    }
+    
+
+
+    .helpT{
+        float: right;
+        margin: 100px;
+        margin-top: 325px;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+line-height: 40px;
+letter-spacing: 4px;
+        color: #1e2a78;
+
+
+
+
+    }
+
+
+    .hello{
+        margin-top: 2300px;
+       padding: 10px;
+       
+       height: 1000px;
+        width: 100%;
+        margin-bottom: 200px;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+    @media screen and (max-width:768px){
+  .container{
+    width: 100%;
+   
+    text-align: center;
+  }
+       
+       .listings{
+           flex-direction: column;
+           width: 100%;
+           padding: 5px;
+           
+
+       }
+      
+         
+       .buy_house_cards{
+            width: 80%;
+
+       }
+       .beauty{
+           font-size: 30px;
+           top: 15%;
+       }
+       .container{
+        text-align: center;
+        
+       
+       }
+
+       .hello{
+           flex-direction: column;
+       }
+
+       .hello img{
+        margin: 10px;
+    }
+
+
+       .helpT{
+
+        margin-top: 10px;
+
+
+
+       }
+
+
+     
+       
+      }
+

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Web_1920_1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        stroke: #1e2a78;
+        stroke-width: 5px;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+        font-size: 50px;
+        font-family: Tahoma;
+        letter-spacing: 0.01em;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="341" height="499.793"/>
+    </clipPath>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" class="cls-2">
+    <rect class="cls-6" width="1920" height="1080"/>
+    <g id="thelololologo" class="cls-3" transform="translate(790 199.207)">
+      <g id="thelololologo-2" data-name="thelololologo" transform="translate(-790 -199.207)">
+        <path id="Path_1" data-name="Path 1" class="cls-4" d="M120.5,12.5V-186.605L28.553-80.816v211.7h173.2V50.167L120.5,12.5,54.833,50.167V96.5H120.5V15.167" transform="translate(852.5 392.5)"/>
+        <text id="DREAMESTATE_" data-name="DREAMESTATE
+" class="cls-5" transform="translate(791 628)"><tspan x="0" y="0">DREAMESTATE</tspan><tspan x="0" y="60"></tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
